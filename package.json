@@ -1,0 +1,34 @@
+{
+  "name": "node-redis-caching",
+  "version": "1.0.0",
+  "description": "This projects shows a demo of implementation of caching in Node.js web application using Redis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizanKn/node-redis-caching.git"
+  },
+  "keywords": [
+    "Redis",
+    "Node.js",
+    "Caching",
+    "Performance optimization"
+  ],
+  "author": "Faizan Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaizanKn/node-redis-caching/issues"
+  },
+  "homepage": "https://github.com/FaizanKn/node-redis-caching#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
